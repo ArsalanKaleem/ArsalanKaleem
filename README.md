@@ -3,24 +3,21 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=AI+Engineer;Flutter+Developer;Full+Stack+Developer;Always+Learning+New+Technologies" />
 </p>
 
-<h3 align="center">
-AI Engineer • Flutter Developer • Full Stack Developer
-</h3>
 
 <p align="center">
 Building AI-powered applications, cross-platform Flutter apps, and scalable full-stack solutions.
 </p>
 
 <p align="center">
-<a href="YOUR_LINKEDIN">
+<a href="www.linkedin.com/in/arsalankaleem">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="YOUR_PORTFOLIO">
+<a href="https://arsalankaleem.github.io/portfolio/">
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:arsalanabbasi.here@gmail.com">
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 </p>
@@ -64,13 +61,9 @@ Building AI-powered applications, cross-platform Flutter apps, and scalable full
 ### Frameworks
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
 ![Riverpod](https://img.shields.io/badge/Riverpod-4A90E2?style=for-the-badge)
-
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### AI
