@@ -9,7 +9,7 @@ Building AI-powered applications, cross-platform Flutter apps, and scalable full
 </p>
 
 <p align="center">
-<a href="www.linkedin.com/in/arsalankaleem">
+<a href="https://www.linkedin.com/in/arsalankaleem/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
@@ -92,39 +92,32 @@ Building AI-powered applications, cross-platform Flutter apps, and scalable full
 
 ## 📚 Documentum
 
-AI-powered documentation generator featuring multiple AI providers, parallel AI agents, Flutter Desktop, and Web.
+An AI-powered documentation platform that transforms codebases into comprehensive, well-structured documentation using multiple LLM providers and parallel AI agents. Built with Flutter for desktop and web, it streamlines the documentation workflow with Markdown export, intelligent code analysis, and a modern cross-platform interface.
+
+**Tech:** Flutter • Dart • Firebase • Gemini AI • Multi-Agent AI
 
 ---
 
-## 💼 CareerGPT
+## 💼 Aestimo
 
-AI-powered career assistant with:
+An AI-powered career development platform designed to help students and professionals create job-ready resumes, optimize them for Applicant Tracking Systems (ATS), generate personalized cover letters, and receive AI-driven career guidance through an intelligent assistant.
 
-- Resume Scoring
-- ATS Resume Builder
-- Cover Letter Generator
-- AI Chat
-- PDF Export
+**Key Features**
+- 📄 ATS-optimized Resume Builder
+- 📊 Resume Scoring & Analysis
+- ✉️ AI Cover Letter Generator
+- 🤖 AI Career Assistant
+- 📑 PDF Resume Export
+
+**Tech:** Flutter • Firebase • Riverpod • Gemini API • RAG
 
 ---
 
 ## 🎬 SIMUL
 
-Watch-party application using Flutter, LiveKit, Docker Compose, WebRTC, and Nginx.
+A real-time watch-party platform that enables synchronized video streaming and group viewing experiences. Powered by LiveKit and WebRTC, it delivers low-latency playback, live chat, and secure communication through a scalable infrastructure.
 
----
-
-## 🏛 CivicPing Pakistan
-
-Civic-tech platform connecting citizens with infrastructure services using AI image analysis and OpenStreetMap.
-
----
-
-## 📅 SAUSSync
-
-University timetable scheduler built with Flutter Windows, Firestore, Riverpod, and CSP scheduling.
-
----
+**Tech:** Flutter • LiveKit • WebRTC • Docker • Nginx
 
 # 📈 GitHub Stats
 
@@ -193,18 +186,18 @@ University timetable scheduler built with Flutter Windows, Firestore, Riverpod, 
 
 <p align="center">
 
-<a href="YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+<p align="center">
+<a href="https://www.linkedin.com/in/arsalankaleem/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="YOUR_PORTFOLIO">
-<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge"/>
+<a href="https://arsalankaleem.github.io/portfolio/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"/>
+<a href="mailto:arsalanabbasi.here@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-
 </p>
 
 ---
