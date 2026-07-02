@@ -22,6 +22,8 @@ Building AI-powered applications, cross-platform Flutter apps, and scalable full
 </a>
 </p>
 
+![](https://komarev.com/ghpvc/?username=ArsalanKaleem&style=for-the-badge)
+
 ---
 
 # 👨‍💻 About Me
@@ -102,13 +104,6 @@ An AI-powered documentation platform that transforms codebases into comprehensiv
 
 An AI-powered career development platform designed to help students and professionals create job-ready resumes, optimize them for Applicant Tracking Systems (ATS), generate personalized cover letters, and receive AI-driven career guidance through an intelligent assistant.
 
-**Key Features**
-- 📄 ATS-optimized Resume Builder
-- 📊 Resume Scoring & Analysis
-- ✉️ AI Cover Letter Generator
-- 🤖 AI Career Assistant
-- 📑 PDF Resume Export
-
 **Tech:** Flutter • Firebase • Riverpod • Gemini API • RAG
 
 ---
@@ -118,16 +113,6 @@ An AI-powered career development platform designed to help students and professi
 A real-time watch-party platform that enables synchronized video streaming and group viewing experiences. Powered by LiveKit and WebRTC, it delivers low-latency playback, live chat, and secure communication through a scalable infrastructure.
 
 **Tech:** Flutter • LiveKit • WebRTC • Docker • Nginx
-
-# 📈 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ArsalanKaleem&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArsalanKaleem&layout=compact&theme=tokyonight"/>
-
-</p>
 
 ---
 
@@ -151,15 +136,6 @@ A real-time watch-party platform that enables synchronized video streaming and g
 
 ---
 
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ArsalanKaleem&theme=tokyonight&row=1&column=7"/>
-
-</p>
-
----
 
 # 🌱 Currently Learning
 
