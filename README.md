@@ -1,4 +1,7 @@
 <h1 align="center">Hi 👋, I'm Arsalan Kaleem</h1>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=AI+Engineer;Flutter+Developer;Full+Stack+Developer;Always+Learning+New+Technologies" />
+</p>
 
 <h3 align="center">
 AI Engineer • Flutter Developer • Full Stack Developer
