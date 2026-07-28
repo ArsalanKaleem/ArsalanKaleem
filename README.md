@@ -81,19 +81,19 @@ I design and build production-grade software across **cross-platform application
 * **Solution:** End-to-end career copilot providing ATS scoring, grounded resume rebuilds, cover letter drafting, and interview prep using retrieval-grounded AI chat.
 * **Tech:** `Flutter` `Google Gemini` `Firebase` `RAG` `Material Design`
 
-#### [Documentum](https://github.com/ArsalanKaleem/Documentum) — Parallel AI Documentation Generator
+#### [Documentum](https://github.com/ArsalanKaleem/Documentum) — Parallel AI Documentation Generator( Web and Windows)
 
 * **Problem:** Technical documentation becomes outdated as codebases evolve rapidly.
 * **Solution:** Multi-provider documentation generator orchestrating parallel AI agents to convert source code into structured API references and architectural overviews.
 * **Tech:** `Flutter` `Dart` `Parallel AI Agents` `Multi-Provider LLM` `REST API`
 
-#### [F1-Vision](https://github.com/ArsalanKaleem/F1-Vision) — Real-Time Motorsport Telemetry Dashboard
+#### [F1-Vision](https://github.com/ArsalanKaleem/F1-Vision) — Real-Time Motorsport Telemetry Dashboard (Android, Web and Windows)
 
 * **Problem:** Live telemetry analysis tools are typically proprietary and locked behind complex desktop interfaces.
 * **Solution:** High-frequency live F1 dashboard displaying telemetry gauges, race control leaderboards, and season analytics powered by OpenF1 and Jolpica APIs.
 * **Tech:** `Flutter` `Dart` `Telemetry` `Real-Time Data` `Firebase Auth`
 
-#### [simul-watch-together-app](https://github.com/ArsalanKaleem/simul-watch-together-app) — Synchronized Media & Communication Platform
+#### [simul-watch-together-app](https://github.com/ArsalanKaleem/simul-watch-together-app) — Synchronized Media & Communication Platform (Android, Web and Windows)
 
 * **Problem:** Web-based co-watching platforms lack low-latency sync combined with integrated real-time video/audio chat.
 * **Solution:** Room-based platform allowing users to watch YouTube in sync, video chat, screen share, and play Connect 4 in real-time.
