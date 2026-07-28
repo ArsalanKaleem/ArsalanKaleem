@@ -81,7 +81,7 @@ I design and build production-grade software across **cross-platform application
 * **Solution:** End-to-end career copilot providing ATS scoring, grounded resume rebuilds, cover letter drafting, and interview prep using retrieval-grounded AI chat.
 * **Tech:** `Flutter` `Google Gemini` `Firebase` `RAG` `Material Design`
 
-#### [Documentium](https://github.com/ArsalanKaleem/Documentium) — Parallel AI Documentation Generator
+#### [Documentum](https://github.com/ArsalanKaleem/Documentum) — Parallel AI Documentation Generator
 
 * **Problem:** Technical documentation becomes outdated as codebases evolve rapidly.
 * **Solution:** Multi-provider documentation generator orchestrating parallel AI agents to convert source code into structured API references and architectural overviews.
