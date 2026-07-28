@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Arsalan Kaleem - Flutter, Applied AI, Geospatial Systems">
+  <title>Arsalan Kaleem — Flutter · Applied AI · Geospatial Systems</title>
+
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.00" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.82" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1.00" stop-color="#FFFFFF" stop-opacity="0.15"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect x="760" y="0" width="520" height="320" fill="url(#fade)"/>
+    </mask>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="320" fill="#FFFFFF"/>
+
+  <!-- dot matrix -->
+  <g mask="url(#gridMask)" opacity="0.9">
+      <circle cx="800" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="800" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="800" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="800" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="800" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="833" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="833" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="833" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="833" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="833" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="866" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="866" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="866" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="866" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="866" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="899" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="899" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="899" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="899" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="899" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="932" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="932" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="932" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="932" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="932" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="965" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="965" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="965" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="965" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="965" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="998" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="998" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="998" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="998" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="998" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1031" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1031" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1031" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1031" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1064" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1064" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1064" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1064" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1064" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1097" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1097" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1097" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1097" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1097" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1130" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1130" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1130" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1130" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1130" cy="228" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1163" cy="96" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1163" cy="129" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1163" cy="162" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1163" cy="195" r="2.2" fill="#C9D1D9"/>
+      <circle cx="1163" cy="228" r="2.2" fill="#C9D1D9"/>
+  </g>
+
+  <!-- signal marker -->
+  <g>
+    <circle cx="1031" cy="162" r="30" fill="none" stroke="#0091D5" stroke-width="1" opacity="0.10"/>
+    <circle cx="1031" cy="162" r="17" fill="none" stroke="#0091D5" stroke-width="1" opacity="0.22"/>
+    <circle cx="1031" cy="162" r="3.4" fill="#0091D5"/>
+  </g>
+
+  <!-- accent rule -->
+  <rect x="80" y="114" width="4" height="92" rx="2" fill="#0091D5"/>
+
+  <!-- wordmark -->
+  <text x="112" y="163" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="46" font-weight="600" letter-spacing="0.5" fill="#0D1117">Arsalan Kaleem</text>
+  <text x="114" y="196" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace" font-size="14" font-weight="500" letter-spacing="4.2" fill="#57606A">FLUTTER &#183; APPLIED AI &#183; GEOSPATIAL SYSTEMS</text>
+</svg>
