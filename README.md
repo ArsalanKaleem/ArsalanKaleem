@@ -8,7 +8,6 @@
   </picture>
 </p>
 
-
 <p align="center">
   <b>Software Engineer</b> — Flutter · Applied AI · Geospatial Systems
 </p>
@@ -21,7 +20,7 @@
 </p>
 
 <p align="center">
-  <code>Karachi, Pakistan</code> • <code>Open to Full-Time & Remote Roles</code>
+  <code>Karachi, Pakistan</code>
 </p>
 
 <p align="center">
