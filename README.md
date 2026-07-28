@@ -47,7 +47,7 @@ Architecturally it is a Riverpod-driven, Freezed-modelled Flutter application wi
 
 `Flutter``Riverpod``GoRouter``Dio``Hive``Freezed``GitHub REST API``GitHub GraphQL API``Gemini API`
 
-**Repository** → [github.com/ArsalanKaleem/ForgeOS](https://github.com/ArsalanKaleem/ForgeOS)
+**Repository** → [github.com/ArsalanKaleem/ForgeOS](https://github.com/ArsalanKaleem/forge-os)
 
 ---
 
@@ -63,10 +63,6 @@ Delivered as an administrator-facing Flutter application backed by Firebase, wit
 
 `Flutter``Firebase``Riverpod``Hive``Constraint Satisfaction (CSP)`
 
-**Repository** → [github.com/ArsalanKaleem/TEMPUS](https://github.com/ArsalanKaleem/TEMPUS)
-
----
-
 ### ◆ SWAI — Sindh Water Access Index — *Using geospatial intelligence to improve water accessibility.*
 
 **A research-grade geospatial analytics platform quantifying drinking-water accessibility across 5,159 villages in Sindh, Pakistan.**
@@ -79,7 +75,7 @@ Results are validated against official government datasets rather than presented
 
 `Python``Google Earth Engine``Sentinel-2``QGIS``GeoPandas``Pandas``NumPy``Remote Sensing``Spatial Analysis`
 
-**Repository** → [github.com/ArsalanKaleem/SWAI](https://github.com/ArsalanKaleem/SWAI)
+**Repository** → [github.com/ArsalanKaleem/SWAI](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-)
 
 ---
 
@@ -127,7 +123,7 @@ Built as a Flutter desktop and web application with Markdown export, keeping gen
 
 `Flutter``Dart``Firebase``Gemini API``Multi-Provider LLM``Parallel Agents`
 
-**Repository** → [github.com/ArsalanKaleem/Documentium](https://github.com/ArsalanKaleem/Documentium)
+**Repository** → [github.com/ArsalanKaleem/Documentum](https://github.com/ArsalanKaleem/Documentum)
 
 ---
 
@@ -141,7 +137,7 @@ The design goal is practical automation — workflows that run reliably enough t
 
 `Python``FastAPI``LLM Orchestration``Tool Calling``RAG``Agentic Workflows`
 
-**Repository** → [github.com/ArsalanKaleem/RHAI](https://github.com/ArsalanKaleem/RHAI)
+**Repository** → [github.com/ArsalanKaleem/RHAI](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-)
 
 ---
 
@@ -157,7 +153,7 @@ The backend is a containerized FastAPI service handling routing logic, authentic
 
 `Flutter``Python``FastAPI``Docker``Firebase``REST APIs`
 
-**Repository** → [github.com/ArsalanKaleem/CivicPing](https://github.com/ArsalanKaleem/CivicPing)
+**Repository** → [github.com/ArsalanKaleem/CivicPing](https://github.com/ArsalanKaleem/Civic-ping-pakistan)
 
 ---
 
