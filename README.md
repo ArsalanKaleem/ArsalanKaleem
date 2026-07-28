@@ -51,7 +51,7 @@ I design and build production-grade software across **cross-platform application
 
 ### ▍ Featured Projects
 
-#### [forge-os](https://github.com/ArsalanKaleem/forge-os) — AI-Driven Open Source Onboarding
+#### [forge-os](https://github.com/ArsalanKaleem/forge-os) — AI-Driven Open Source Onboarding (Windows)
 
 * **Problem:** Open source onboarding fails at issue discovery due to high filtering friction on GitHub.
 * **Solution:** A multi-target Flutter companion app integrating GitHub REST/GraphQL APIs with Gemini guidance to surface beginner-friendly issues with codebase orientation and suggested approaches.
@@ -75,7 +75,7 @@ I design and build production-grade software across **cross-platform application
 * **Solution:** Spatial accessibility index modeling facility reachability, travel boundaries, and population coverage gaps to support evidence-based public health interventions.
 * **Tech:** `Python` `GeoPandas` `Spatial Analysis` `Healthcare GIS`
 
-#### [Aestimo](https://github.com/ArsalanKaleem/Aestimo) — AI Career Copilot & Resume Intelligence
+#### [Aestimo](https://github.com/ArsalanKaleem/Aestimo) — AI Career Copilot & Resume Intelligence (Android, Web and Windows)
 
 * **Problem:** Candidate resumes fail automated screening (ATS) due to poor keyword alignment and ungrounded formatting.
 * **Solution:** End-to-end career copilot providing ATS scoring, grounded resume rebuilds, cover letter drafting, and interview prep using retrieval-grounded AI chat.
