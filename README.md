@@ -1,6 +1,6 @@
 <!--   HERO BANNER — commit assets/banner-dark.svg and assets/banner-light.svg   to this repository. GitHub swaps them automatically with the viewer's theme. --> <p align="center">   <picture>     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />     <img src="./assets/banner-dark.svg" alt="Arsalan Kaleem — Flutter, Applied AI, Geospatial Systems" width="100%" />   </picture> </p> <h2 align="center">Software Engineer — Flutter · Applied AI · Geospatial Systems</h2> <p align="center">   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1200&color=00BFFF&center=true&vCenter=true&width=760&lines=Cross-platform+systems+across+6+targets;LLM+pipelines%2C+RAG%2C+and+agentic+workflows;Constraint+solvers+for+real+scheduling+problems;Geospatial+analytics+at+district+scale" alt="Typing SVG" /> </p> <p align="center">   <a href="https://arsalankaleem.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=00BFFF" alt="Portfolio" /></a>   <a href="https://linkedin.com/in/arsalankaleem"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>   <a href="mailto:arsalanabbasi.here@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>   <img src="https://komarev.com/ghpvc/?username=ArsalanKaleem&style=for-the-badge&color=00BFFF&label=PROFILE+VIEWS" alt="Profile views" /> </p> <p align="center">   <img src="https://img.shields.io/badge/Based\_in-Pakistan-0D1117?style=flat-square&labelColor=161B22&color=00BFFF" alt="Location" />   <img src="https://img.shields.io/badge/Open\_to-Full--time\_·\_Remote\_·\_Contract-0D1117?style=flat-square&labelColor=161B22&color=00BFFF" alt="Availability" />   <img src="https://img.shields.io/badge/Focus-Flutter\_·\_AI\_·\_GIS-0D1117?style=flat-square&labelColor=161B22&color=00BFFF" alt="Focus" /> </p> ---
 
-## ▍About
+## About
 
 I build production-grade software where three disciplines intersect: **cross-platform application engineering**, **applied artificial intelligence**, and **geospatial analysis**.
 
@@ -19,7 +19,7 @@ The through-line is the same in each case — take an unglamorous, high-friction
 
 ---
 
-## ▍What I'm Working On
+## What I'm Working On
 
 
 | Project       | Focus                                                  | Status                                |
@@ -33,7 +33,7 @@ The through-line is the same in each case — take an unglamorous, high-friction
 
 ---
 
-## ▍Featured Projects
+## Featured Projects
 
 <!-- Repository links are plain markdown by design — no third-party card services      that can go down and leave broken images on the profile. --> ### ◆ ForgeOS — *Where you forge your open source career.*
 
@@ -45,7 +45,7 @@ Architecturally it is a Riverpod-driven, Freezed-modelled Flutter application wi
 
 **Impact:** collapses open source discovery from hours of manual GitHub filtering to a single ranked feed, and ships to **six targets** — Web, Android, Windows, macOS, Linux — from one codebase.
 
-`Flutter``Riverpod``GoRouter``Dio``Hive``Freezed``GitHub REST API``GitHub GraphQL API``Gemini API`
+`Flutter Riverpod GoRouter Dio Hive Freezed GitHub REST API GitHub GraphQL API Gemini API`
 
 **Repository** → [github.com/ArsalanKaleem/ForgeOS](https://github.com/ArsalanKaleem/forge-os)
 
