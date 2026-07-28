@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <code>Shikarpur, Sindh, Pakistan</code> • <code>Open to Full-Time & Remote Roles</code>
+  <code>Karachi, Pakistan</code> • <code>Open to Full-Time & Remote Roles</code>
 </p>
 
 <p align="center">
