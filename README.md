@@ -8,7 +8,7 @@
   </picture>
 </p>
 
-<h1 align="center">Arsalan Kaleem</h1>
+
 <p align="center">
   <b>Software Engineer</b> — Flutter · Applied AI · Geospatial Systems
 </p>
