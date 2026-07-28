@@ -45,7 +45,7 @@ I design and build production-grade software across **cross-platform application
 * **State & Architecture:** Riverpod, Freezed, GoRouter, Clean Architecture
 * **AI & Data Pipelines:** Agentic Workflows, RAG, Gemini API, Parallel Agents, Pandas, NumPy
 * **GIS & Remote Sensing:** Google Earth Engine, GeoPandas, QGIS, Sentinel-2 Analysis
-* **Backend & DevOps:** Firebase, LiveKit (WebRTC), Docker, REST & GraphQL APIs, GitHub Actions
+* **Backend & DevOps:** Firebase, LiveKit (WebRTC), Docker, REST & GraphQL APIs, GitHub Actions, CI/CD
 
 ---
 
