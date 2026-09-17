@@ -16,6 +16,7 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Location-Karachi%2C%20Pakistan-0A66C2?style=for-the-badge" alt="Location" />
+<br/>
     <img src="https://komarev.com/ghpvc/?username=ArsalanKaleem&style=flat-square&color=brightgreen&label=PROFILE+VIEWS" alt="Profile views" />
   </p>
 </div>
@@ -53,16 +54,17 @@ My work focuses on making complex problems <strong>measurable, reproducible, and
 
 ## Selected Work
 
-| Project | Focus |
-| --- | --- |
-| [SWAI](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-) | Geospatial water-access measurement across 5,159 Sindh settlements |
-| [RHAI](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-) | Rural healthcare accessibility using real road networks |
-| [Unlearning Audit](https://github.com/ArsalanKaleem/unlearning-audit) | Empirical audit of LLM unlearning claims |
-| [F1-Vision](https://github.com/ArsalanKaleem/F1-Vision) | Motorsport telemetry and race strategy analytics |
-| [SIMUL](https://github.com/ArsalanKaleem/simul-watch-together-app) | Real-time cross-platform watch-party system |
-| [Documentum](https://github.com/ArsalanKaleem/Documentum) | Multi-agent AI documentation infrastructure |
-| [Aestimo](https://github.com/ArsalanKaleem/Aestimo) | AI-grounded career copilot and resume intelligence |
-| [ForgeOS](https://github.com/ArsalanKaleem/forge-os) | AI-curated open-source contribution discovery |
+
+| Project                                                                              | Focus                                                              |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [SWAI](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-)              | Geospatial water-access measurement across 5,159 Sindh settlements |
+| [RHAI](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-) | Rural healthcare accessibility using real road networks            |
+| [Unlearning Audit](https://github.com/ArsalanKaleem/unlearning-audit)                | Empirical audit of LLM unlearning claims                           |
+| [F1-Vision](https://github.com/ArsalanKaleem/F1-Vision)                              | Motorsport telemetry and race strategy analytics                   |
+| [SIMUL](https://github.com/ArsalanKaleem/simul-watch-together-app)                   | Real-time cross-platform watch-party system                        |
+| [Documentum](https://github.com/ArsalanKaleem/Documentum)                            | Multi-agent AI documentation infrastructure                        |
+| [Aestimo](https://github.com/ArsalanKaleem/Aestimo)                                  | AI-grounded career copilot and resume intelligence                 |
+| [ForgeOS](https://github.com/ArsalanKaleem/forge-os)                                 | AI-curated open-source contribution discovery                      |
 
 <br>
 
