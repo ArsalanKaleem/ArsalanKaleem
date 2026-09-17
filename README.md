@@ -1,4 +1,3 @@
----
 ### About
 
 I build **production systems and research tools** at the intersection of software engineering, AI, and geospatial science.
@@ -26,4 +25,3 @@ Engineering    Clean Architecture · Riverpod · Docker · CI/CD
 ### Research Interests
 
 **AI Reliability · Geospatial Accessibility · Remote Sensing · Constraint Solving · Reproducible Systems**
----
