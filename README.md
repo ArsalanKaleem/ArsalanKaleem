@@ -57,12 +57,6 @@ I design and build production-grade software across **cross-platform application
 * **Solution:** A multi-target Flutter companion app integrating GitHub REST/GraphQL APIs with Gemini guidance to surface beginner-friendly issues with codebase orientation and suggested approaches.
 * **Tech:** `Flutter` `Riverpod` `GoRouter` `Dio` `Hive` `Gemini API`
 
-#### TEMPUS — Automated University Timetabling *(Private Repository / University Project)*
-
-* **Problem:** University scheduling is an NP-hard problem taking weeks of manual coordination.
-* **Solution:** Formalized timetable generation into a Constraint Satisfaction Problem (CSP) solver utilizing constraint propagation and backtracking search to produce zero-conflict schedules in minutes.
-* **Tech:** `Flutter` `Dart` `CSP Solver` `Firebase` `Riverpod`
-
 #### [Sindh-Water-Access-index-SWAI-](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-) — Geospatial Intelligence for Water Access
 
 * **Problem:** Lack of granular, village-level data on drinking water accessibility in Sindh, Pakistan.
