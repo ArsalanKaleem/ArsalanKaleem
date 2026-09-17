@@ -1,73 +1,498 @@
-<!-- HERO BANNER --> <p align="center">   <picture>     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />     <img src="./assets/banner-dark.svg" alt="Arsalan Kaleem — Software Engineer" width="100%" />   </picture> </p> <h3 align="center">Arsalan Kaleem</h3> <p align="center"><b>Software Engineer</b> — Cross-Platform Systems · Applied AI · Geospatial Research</p> <p align="center">   <a href="https://arsalankaleem.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=firefoxbrowser&logoColor=00BFFF" alt="Portfolio" /></a>   <a href="https://linkedin.com/in/arsalankaleem"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>   <a href="mailto:arsalanabbasi.here@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>   <a href="https://github.com/ArsalanKaleem"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a> </p> <p align="center"><code>Karachi, Pakistan</code></p> <p align="center">   <img src="https://komarev.com/ghpvc/?username=ArsalanKaleem&style=flat-square&color=00BFFF&label=PROFILE+VIEWS" alt="Profile views" /> </p> ---
-
-### ▍ About
-
-I build production-grade systems across three lanes: **cross-platform application engineering**, **applied AI**, and **geospatial / empirical research** — usually by taking a problem that's unglamorous or under-served by open data and turning it into something deterministic, reproducible, and shippable.
-
-* **Architecture first** — layered separation, immutable state, testable boundaries (Riverpod, Clean Architecture).
-* **Grounded AI** — determinism at the core, intelligence at the edges: RAG, agentic multi-provider pipelines, and structured tool-calling over raw LLM output, plus AI-safety auditing when the claim itself needs checking.
-* **Data that survives scrutiny** — geospatial and empirical work ships with the full pipeline, preregistered thresholds, and the failure modes stated up front, not just the headline number.
-* **Offline & multi-target** — one Dart/Flutter codebase reaching Web, Android, iOS, Windows, macOS, and Linux, with offline-first caching as a default, not an afterthought.
+> **I build systems where correctness matters more than novelty.**
+>
+> My work sits at the intersection of software engineering, applied artificial intelligence,
+> geospatial computation, and empirical research — with a recurring question:
+>
+> **Can we turn an ambiguous real-world problem into a system whose assumptions, data,
+> failure modes, and conclusions can all be inspected?**
 
 ---
 
-### ▍ Tech Stack
+# `01` · RESEARCH / ENGINEERING THESIS
 
-**Languages & Frameworks** · Dart · Flutter · Python · FastAPI · TypeScript **State & Architecture** · Riverpod · Freezed · GoRouter · Clean Architecture **AI & Data Pipelines** · Agentic workflows · RAG · Gemini API · Multi-provider LLM orchestration · Pandas · NumPy · scikit-learn **GIS & Remote Sensing** · Google Earth Engine · GeoPandas · OSMnx/NetworkX · QGIS · Sentinel-2 analysis **Backend & DevOps** · Firebase · LiveKit (WebRTC) · Docker · REST & GraphQL APIs · GitHub Actions · CI/CD
+I am interested in the space between **research that never becomes software** and **software that never questions its assumptions**.
 
----
+My projects generally follow the same pipeline:
 
-### ▍ Featured Projects
+```text
+REAL-WORLD PROBLEM
+       │
+       ▼
+┌─────────────────────┐
+│ Formalize            │
+│ assumptions          │
+│ constraints          │
+│ measurable outcomes  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Build the pipeline   │
+│ data → computation   │
+│ state → interface    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Validate             │
+│ controls             │
+│ sensitivity          │
+│ failure modes        │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Ship                 │
+│ reproducible system  │
+│ documentation        │
+│ evidence             │
+└─────────────────────┘
+```
 
-#### 🎬 [SIMUL](https://github.com/ArsalanKaleem/simul-watch-together-app) — Synchronized Watch-Party Platform
+The result is not simply an application, model, or analysis.
 
-Six-platform Flutter app for watching YouTube in sync with friends — voice chat, screen share with audio, live reactions, and a built-in game, backed by Firebase and LiveKit. Ships with documented Firestore security rules and an honestly-written limitations section covering exactly where the trust boundary sits. `Flutter``Firebase``LiveKit``WebRTC`
-
-#### 🏎️ [F1-Vision](https://github.com/ArsalanKaleem/F1-Vision) — Real-Time Motorsport Analytics & Strategy Simulator
-
-A reference-quality Clean Architecture Flutter app that reconstructs Formula 1 races lap by lap — live telemetry gauges, a 14-panel analytics board, a full race replay with derived overtake detection, and a driver comparison studio — built entirely on free public APIs. `Flutter``Riverpod``Isar``fl_chart`
-
-#### 💧 [SWAI](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-) — Sindh Water Access Index
-
-A village-level drinking-water accessibility index for 5,159 settlements in Sindh, built entirely from open satellite data. The headline finding is methodological: the standard approach inverts the ranking, scoring Pakistan's driest district as its best-served — and the repository documents exactly why, and how it's corrected. `Python``Google Earth Engine``GeoPandas``Remote Sensing`
-
-#### 🏥 [RHAI](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-) — Rural Healthcare Accessibility Index
-
-Village-level travel time to the nearest public health facility across Sindh, routed over the real road network — and a measurement of how badly open geospatial data represents rural primary care: open data alone overstates travel times roughly twofold and misses the majority of real facilities. `Python``OSMnx``NetworkX``Spatial Analysis`
-
-#### 🔐 [Website Security Assessment](https://github.com/ArsalanKaleem/) — Non-Destructive Web Security Scanner
-
-A modular FastAPI security auditor covering TLS hygiene, HTTP headers, application-layer config, DNS/email security, and CVE correlation against OSV/NVD/CISA KEV — every deduction explained with evidence and remediation. Assessment only: it never exploits anything, and SSRF/DNS-rebinding protection is the single choke point every scan passes through. `Python``FastAPI``Docker`
-
-#### 🧠 [Unlearning Audit](https://github.com/ArsalanKaleem/unlearning-audit) — Never-Taught Controls in LLM Unlearning
-
-A preregistered audit asking whether LLM "unlearning" actually erases knowledge or just suppresses it — using a control group of facts the model was never taught, which standard diagnostics omit. Four widely-used diagnostics look like evidence of hidden knowledge; none survives the control. Fully reproducible, CPU-only. `Python``PyTorch``Statistics`
-
-#### 📄 [Documentum](https://github.com/ArsalanKaleem/Documentum) — Multi-Agent AI Documentation Generator
-
-Points a coordinated team of AI agents at any codebase and produces a full documentation suite — README, API reference, architecture guide, changelog — backed by a persistent "Project Brain" semantic memory so docs stay current as the project evolves. Provider-agnostic across seven LLM backends. `Flutter``Multi-Provider LLM``REST API`
-
-#### 🔭 [ForgeOS](https://github.com/ArsalanKaleem/forge-os) — AI-Curated Open Source Onboarding
-
-Solves first-PR paralysis: surfaces trending and beginner-friendly repositories, filters issues down to the ones actually labeled for newcomers, and uses AI to explain what an issue involves — difficulty, skills, suggested approach — without ever handing over the solution. No account, no backend, runs on free public APIs alone. `Flutter``Riverpod``Gemini API`
-
-#### 💼 [Aestimo](https://github.com/ArsalanKaleem/Aestimo) — AI Career Copilot & Resume Intelligence
-
-Upload a resume once and every feature — ATS scoring, grounded chat, interview prep with live mock interviews, job matching, cover letter generation — runs off what's actually in it, not generic advice. Android, Web, and Windows from one Flutter codebase. `Flutter``Gemini API``Firebase``RAG`
-
-#### 💬 [Nuntius](https://github.com/ArsalanKaleem/) — Privacy-First WhatsApp Chat Analytics
-
-Parses and analyzes WhatsApp chat exports entirely on-device — no server, no account, no analytics SDK. Dashboards, a swipeable "Wrapped" story, full-text search, and a vector-chart PDF report, handling real-world export quirks across iOS/Android formats and code-switched Roman-Urdu/Hindi. `Flutter``On-Device Processing`
+It is a **reproducible system with an explicit epistemic boundary**.
 
 ---
 
-### ▍ Research & Technical Writing
+# `02` · WHAT I BUILD
 
-* **Geospatial & SDG 6** — quantifying drinking-water and healthcare accessibility across 5,159 Sindh settlements using open remote sensing, with methodological corrections documented rather than glossed over.
-* **AI Safety / Interpretability** — auditing whether LLM unlearning removes knowledge or merely suppresses its expression, using preregistered thresholds and never-taught controls.
-* **Constraint Solvers** — formalizing institutional scheduling constraints into deterministic graph algorithms.
-* **System Design** — production Riverpod architecture, multi-platform state isolation, and offline-first data sync.
+### `SYSTEMS`
+
+Production-oriented cross-platform applications designed around explicit boundaries, deterministic state transitions, offline resilience, and maintainable architecture.
+
+**Flutter · Dart · Riverpod · Freezed · GoRouter · Clean Architecture · Firebase · REST · GraphQL**
+
+### `AI`
+
+AI systems where language models are treated as probabilistic components rather than sources of truth.
+
+**RAG · Agentic Workflows · Structured Tool Calling · Multi-Provider LLMs · Gemini · Evaluation · AI Safety**
+
+### `GEOSPATIAL`
+
+Spatial pipelines for questions that disappear when data is aggregated too aggressively.
+
+**Google Earth Engine · Sentinel-2 · GeoPandas · QGIS · OSMnx · NetworkX · Remote Sensing**
+
+### `RESEARCH`
+
+Empirical work focused on measurement validity, controls, reproducibility, and identifying where apparently reasonable methodologies produce misleading conclusions.
+
+**Statistics · Experimental Design · Spatial Analysis · Constraint Solving · Reproducible Pipelines**
 
 ---
 
-<p align="center"><i>Building things that hold up under scrutiny — from a shipped app to a corrected p-value.</i></p>
+# `03` · SELECTED WORK
+
+## 💧 SWAI
+
+### Sindh Water Access Index
+
+A village-level drinking-water accessibility pipeline covering **5,159 settlements in Sindh** using open satellite and geospatial data.
+
+The interesting part is not the index itself.
+
+It is the methodological failure discovered during construction:
+
+> A conventional formulation could make one of Pakistan's driest districts appear to have the strongest access.
+
+The project documents the mathematical reason, the correction, and the complete geospatial pipeline rather than hiding the uncomfortable result.
+
+**Stack**
+
+`Python``Google Earth Engine``GeoPandas`
+`Sentinel-2``QGIS``Spatial Statistics`
+
+[View repository](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-)
+
+## 🏥 RHAI
+
+### Rural Healthcare Accessibility Index
+
+A spatial accessibility model for rural healthcare across Sindh.
+
+Instead of drawing circles around facilities, the analysis considers **actual road-network travel** and investigates how incomplete open geospatial data can distort apparent accessibility.
+
+The project treats missing facilities and incomplete road data as measurement problems — not footnotes.
+
+**Stack**
+
+`Python``OSMnx``NetworkX`
+`GeoPandas``QGIS``Spatial Analysis`
+
+[View repository](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-)
+
+## 🧠 UNLEARNING AUDIT
+
+### Never-Taught Controls in LLM Unlearning
+
+An empirical audit of whether apparent LLM unlearning represents actual knowledge removal or merely behavioral suppression.
+
+The central experimental idea is deliberately simple:
+
+**What happens when the same diagnostic is applied to information the model was never taught?**
+
+The work uses preregistered thresholds, control conditions, and CPU-only reproducibility to test whether commonly used diagnostics actually measure what they claim to measure.
+
+**Stack**
+
+`Python``PyTorch``Statistics`
+`Experimental Design``AI Safety`
+
+[View repository](https://github.com/ArsalanKaleem/unlearning-audit)
+
+## 🏎️ F1-VISION
+
+### Real-Time Motorsport Analytics
+
+A research-grade Flutter telemetry environment that reconstructs races lap-by-lap rather than reducing them to a leaderboard.
+
+Live telemetry, race control, tyre evolution, strategy analysis, driver comparison, derived overtakes, race replay, and season-wide analytics are brought into one interface.
+
+Built entirely around free public data sources.
+
+**Stack**
+
+`Flutter``Riverpod``Isar`
+`OpenF1``Jolpica``Telemetry`
+
+[View repository](https://github.com/ArsalanKaleem/F1-Vision)
+
+## 🎬 SIMUL
+
+### Synchronized Watch-Party Infrastructure
+
+A six-platform real-time application for synchronized YouTube watching with voice chat, screen sharing, audio, reactions, and multiplayer interaction.
+
+The engineering challenge is synchronization under imperfect networks — not merely putting a video player beside a chat window.
+
+Includes documented Firestore security rules and explicit trust-boundary analysis.
+
+**Stack**
+
+`Flutter``Firebase``LiveKit`
+`WebRTC``Real-Time Sync`
+
+[View repository](https://github.com/ArsalanKaleem/simul-watch-together-app)
+
+## 📄 DOCUMENTUM
+
+### Multi-Agent Documentation Infrastructure
+
+A provider-agnostic documentation system that coordinates AI agents over a codebase to generate:
+
+* architecture documentation
+* API references
+* README material
+* changelogs
+* project knowledge
+
+A persistent semantic **Project Brain** allows generated documentation to evolve with the underlying codebase.
+
+**Stack**
+
+`Flutter``Multi-Agent AI`
+`RAG``LLM Orchestration``REST`
+
+[View repository](https://github.com/ArsalanKaleem/Documentum)
+
+## 🔭 FORGEOS
+
+### AI-Assisted Open Source Onboarding
+
+A tool designed around the first-contribution problem:
+
+**finding an issue is easy; understanding whether you can actually solve it is not.**
+
+ForgeOS filters GitHub issues and uses AI to explain the problem, expected skills, difficulty, and possible direction without simply giving away the implementation.
+
+No account. No proprietary backend. Free public APIs.
+
+**Stack**
+
+`Flutter``Riverpod``Gemini`
+`GitHub APIs``Offline-first`
+
+[View repository](https://github.com/ArsalanKaleem/forge-os)
+
+## 💼 AESTIMO
+
+### AI Career & Resume Intelligence
+
+A grounded career assistant where downstream features are constrained by the user's actual resume rather than generic career advice.
+
+Includes:
+
+`ATS analysis` · `resume intelligence` · `grounded chat` · `job matching` · `cover letters` · `interview preparation` · `live mock interviews`
+
+One codebase targeting Android, Web, and Windows.
+
+**Stack**
+
+`Flutter``Gemini``Firebase`
+`RAG``Riverpod`
+
+[View repository](https://github.com/ArsalanKaleem/Aestimo)
+
+## 🔐 WEBSITE SECURITY ASSESSMENT
+
+### Non-Destructive Security Analysis
+
+A modular FastAPI security assessment pipeline covering TLS configuration, HTTP security headers, DNS/email posture, application configuration, and vulnerability correlation.
+
+The design principle is explicit:
+
+> **Assess. Explain. Remediate. Never exploit.**
+
+SSRF and DNS-rebinding protection form a centralized security boundary around outbound assessment operations.
+
+**Stack**
+
+`Python``FastAPI``Docker`
+`OSV``NVD``CISA KEV`
+
+## 💬 NUNTIUS
+
+### Privacy-First WhatsApp Analytics
+
+A completely on-device analytics system for exported WhatsApp conversations.
+
+No account.
+No server.
+No analytics SDK.
+
+Designed for real-world exports, including large conversations, iOS/Android format differences, code-switched Roman Urdu/Hindi, search, dashboards, Wrapped-style storytelling, and PDF reports.
+
+**Stack**
+
+`Flutter``On-Device Processing`
+`NLP``Data Visualization`
+
+[View repository](https://github.com/ArsalanKaleem/Nuntius)
+
+---
+
+# `04` · ENGINEERING PRINCIPLES
+
+### 01 — Determinism before intelligence
+
+If a rule can be encoded deterministically, it should not be delegated to a language model.
+
+```text
+deterministic computation
+        +
+validated data
+        +
+structured tools
+        +
+bounded model reasoning
+        =
+more trustworthy AI systems
+```
+
+### 02 — Architecture is a constraint, not decoration
+
+I prefer systems where dependencies point inward and boundaries are visible.
+
+```text
+Presentation
+     ↓
+Application
+     ↓
+Domain
+     ↓
+Infrastructure
+```
+
+State should be observable.
+
+Side effects should be isolated.
+
+Business rules should be testable without rendering a screen.
+
+### 03 — Offline is a design decision
+
+Network failure is not an exceptional event.
+
+Applications should know what they can do without connectivity, preserve local state, and synchronize deliberately rather than assuming the network is always available.
+
+### 04 — Data provenance matters
+
+A polished visualization does not make weak data strong.
+
+For analytical systems I care about:
+
+* source provenance
+* spatial resolution
+* temporal coverage
+* missingness
+* measurement error
+* assumptions
+* sensitivity
+* validation
+* reproducibility
+
+### 05 — Negative results are results
+
+If a methodology produces a surprising conclusion, the first response should be:
+
+**audit the pipeline.**
+
+Not:
+
+**hide the result.**
+
+---
+
+# `05` · TECHNOLOGY
+
+### Languages
+
+`Dart` · `Python` · `TypeScript`
+
+### Application Engineering
+
+`Flutter` · `Riverpod` · `Freezed` · `GoRouter`
+`Clean Architecture` · `Offline-first Systems`
+
+### Artificial Intelligence
+
+`RAG` · `Agentic Workflows` · `Structured Tool Calling`
+`Gemini API` · `Multi-provider LLM Orchestration`
+`AI Evaluation` · `AI Safety`
+
+### Data / Scientific Computing
+
+`Pandas` · `NumPy` · `scikit-learn`
+`PyTorch` · `Statistics` · `Experimental Design`
+
+### GIS / Earth Observation
+
+`Google Earth Engine` · `GeoPandas` · `QGIS`
+`OSMnx` · `NetworkX` · `Sentinel-2`
+`Remote Sensing` · `Spatial Analysis`
+
+### Infrastructure
+
+`Firebase` · `FastAPI` · `Docker`
+`REST` · `GraphQL` · `LiveKit` · `WebRTC`
+`GitHub Actions` · `CI/CD`
+
+---
+
+# `06` · RESEARCH DIRECTIONS
+
+I am particularly interested in problems where **software engineering becomes a method of inquiry**.
+
+### 🌍 Geospatial Inequality
+
+How much can open satellite, population, road-network, and administrative data tell us about access to essential services — and where does that measurement break?
+
+### 🧠 AI Reliability
+
+How do we distinguish actual model capabilities from artifacts of prompting, evaluation design, data leakage, benchmark construction, or behavioral suppression?
+
+### 🧩 Constraint Systems
+
+How can messy institutional rules be translated into explicit mathematical constraints and solved deterministically?
+
+### 🤖 Agentic Software
+
+What happens when language models stop being chat interfaces and become bounded components inside larger software systems?
+
+### 🔬 Reproducible Engineering
+
+How do we build research software that someone else can actually run, inspect, challenge, and reproduce?
+
+---
+
+# `07` · THE COMMON THREAD
+
+Different projects.
+
+Same philosophy.
+
+```text
+                  ┌────────────────────┐
+                  │  REAL WORLD        │
+                  │  PROBLEM           │
+                  └─────────┬──────────┘
+                            │
+              ┌─────────────▼─────────────┐
+              │       FORMALIZATION       │
+              │ constraints · assumptions │
+              └─────────────┬─────────────┘
+                            │
+           ┌────────────────▼────────────────┐
+           │             SYSTEM              │
+           │ software · data · models · GIS  │
+           └────────────────┬────────────────┘
+                            │
+              ┌─────────────▼─────────────┐
+              │        VALIDATION         │
+              │ controls · tests · audits │
+              └─────────────┬─────────────┘
+                            │
+                 ┌──────────▼──────────┐
+                 │     REPRODUCIBLE    │
+                 │      RESULT         │
+                 └─────────────────────┘
+```
+
+I am less interested in building another demonstration of what technology *can* do.
+
+I am more interested in determining:
+
+**what it actually does, under which assumptions, and whether the result survives inspection.**
+
+---
+
+# `08` · CURRENTLY
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  BUILDING                                                    │
+│  ├── production Flutter systems                              │
+│  ├── AI-assisted developer infrastructure                    │
+│  ├── geospatial research pipelines                           │
+│  └── reproducible analytical tooling                         │
+│                                                              │
+│  STUDYING                                                    │
+│  ├── AI evaluation & reliability                             │
+│  ├── spatial accessibility                                   │
+│  ├── remote sensing                                          │
+│  ├── constraint optimization                                 │
+│  └── empirical research methodology                           │
+│                                                              │
+│  PRINCIPLE                                                   │
+│  └── make the assumptions inspectable                         │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# `09` · OPEN SOURCE
+
+Most of the interesting engineering problems become more interesting when somebody else can inspect the solution.
+
+I publish systems, experiments, datasets, methodologies, and tooling with an emphasis on:
+
+* reproducibility
+* architectural clarity
+* explicit limitations
+* documented assumptions
+* useful failure modes
+* practical deployment
+
+If a project can teach another engineer something, I want the repository to contain enough context for them to understand **why** it was built — not only **how**.
+
+---
+
+# `10` · ELSEWHERE
+
+---
+
+### `BUILD · MEASURE · QUESTION · REPRODUCE`
