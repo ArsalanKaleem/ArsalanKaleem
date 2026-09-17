@@ -31,6 +31,11 @@ My work sits between two worlds: <strong>engineering for real-world impact</stro
 
 I care about building software that is not only technically strong, but also clear, maintainable, and grounded in evidence. Whether I’m designing AI workflows, building geospatial intelligence pipelines, or creating user-facing applications, my focus is always on reliability, clarity, and end-to-end value.
 
+<div align="center">
+
+
+<div align="center">
+
 <table>
   <tr>
     <td align="center" width="50%">
@@ -53,6 +58,11 @@ I care about building software that is not only technically strong, but also cle
     </td>
   </tr>
 </table>
+
+</div>
+
+
+</div>
 
 <br>
 
