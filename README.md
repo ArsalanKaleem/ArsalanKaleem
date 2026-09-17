@@ -27,28 +27,41 @@
 
 I build <strong>production systems and research tools</strong> at the intersection of software engineering, AI, and geospatial science.
 
-My work focuses on making complex problems <strong>measurable, reproducible, and shippable</strong>.
+My work sits between two worlds: <strong>engineering for real-world impact</strong> and <strong>research for deep technical understanding</strong>. I enjoy transforming messy, complex problems into systems that are measurable, reproducible, and useful in practice.
+
+I care about building software that is not only technically strong, but also clear, maintainable, and grounded in evidence. Whether I’m designing AI workflows, building geospatial intelligence pipelines, or creating user-facing applications, my focus is always on reliability, clarity, and end-to-end value.
 
 <table>
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="50%">
       <strong>Systems</strong><br>
       Flutter · Dart · Python · FastAPI
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="50%">
       <strong>AI</strong><br>
       RAG · Agents · LLM Evaluation
     </td>
-    <td align="center" width="25%">
+  </tr>
+  <tr>
+    <td align="center" width="50%">
       <strong>Geospatial</strong><br>
       Earth Engine · GeoPandas · OSMnx · QGIS
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="50%">
       <strong>Engineering</strong><br>
       Clean Architecture · Riverpod · Docker · CI/CD
     </td>
   </tr>
 </table>
+
+<br>
+
+## What I Do
+
+- Design and ship <strong>software systems</strong> with a strong emphasis on architecture, maintainability, and product usability.
+- Build <strong>AI-enabled tools</strong> that combine language models, retrieval pipelines, and practical evaluation loops.
+- Explore <strong>geospatial research</strong> problems around accessibility, environmental analysis, and decision support.
+- Turn technical ideas into <strong>reproducible, evidence-driven systems</strong> that can be validated and extended over time.
 
 <br>
 
@@ -66,9 +79,19 @@ My work focuses on making complex problems <strong>measurable, reproducible, and
 | [Aestimo](https://github.com/ArsalanKaleem/Aestimo)                                  | AI-grounded career copilot and resume intelligence                 |
 | [ForgeOS](https://github.com/ArsalanKaleem/forge-os)                                 | AI-curated open-source contribution discovery                      |
 
+These projects reflect a recurring theme: using data, modeling, and software engineering to understand complex systems and turn them into actionable tools.
+
 <br>
 
 ## Research Interests
+
+I am particularly interested in the intersection of:
+
+- <strong>AI reliability</strong> and evaluation under realistic conditions
+- <strong>Geospatial accessibility</strong> and infrastructure-driven decision making
+- <strong>Remote sensing</strong> and evidence-based spatial analysis
+- <strong>Constraint solving</strong> for optimization and planning problems
+- <strong>Reproducible systems</strong> that make computational research transparent and usable
 
 <p>
   <img src="https://img.shields.io/badge/AI%20Reliability-Research-34D058?style=flat-square" alt="AI Reliability" />
