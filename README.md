@@ -106,9 +106,3 @@ I design and build production-grade software across **cross-platform application
 * **Geospatial & SDG 6:** Quantifying drinking water accessibility across 5,159 settlements using remote sensing and spatial statistics.
 * **Constraint Solvers:** Formalizing institutional scheduling constraints into deterministic graph algorithms.
 * **System Design:** Production Riverpod architecture, multi-platform state isolation, and offline-first data sync.
-
----
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ArsalanKaleem&theme=tokyo-night&hide_border=true&bg_color=0D1117&area=true" alt="Contribution activity graph" width="100%" />
-</p>
