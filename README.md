@@ -25,7 +25,7 @@ I like problems where the standard answer turns out to be wrong. Most of my work
 **Low-resource NLP (Sindhi and Urdu)**
 
 - [**LAFZ**](https://github.com/ArsalanKaleem/LAFZ): extends an open LLM's vocabulary after training. Urdu and Sindhi text needs 47–49% fewer tokens and generation runs about 1.9× faster.
-- [**MorphoTok-SD-UR**](https://github.com/ArsalanKaleem/MorphoTok-SD-UR): a preregistered study of morphology-aware tokenization with gold data from native Sindhi speakers. It is also the home of **SindhiNorm**, a spelling normalizer for Sindhi.
+- [**MorphoTok-SD-UR**](https://github.com/ArsalanKaleem/MorphoTok-SD-UR): a preregistered study of morphology-aware tokenization with gold data from native Sindhi speakers. It is also the home of [**SindhiNorm**](https://pypi.org/project/sindhinorm/), a spelling normalizer for Sindhi checked against native speakers (`pip install sindhinorm`).
 - [**sindhi-JEV**](https://github.com/ArsalanKaleem/sindhi-JEV): a 7M-parameter checker that flags wrong Sindhi OCR output and marks where the error is.
 
 **Geospatial accessibility in Sindh**
@@ -49,6 +49,7 @@ I like problems where the standard answer turns out to be wrong. Most of my work
 | --- | --- | --- |
 | swe-inject-steps | Dataset · Hugging Face | [huggingface.co/datasets/ArsalanKaleem/swe-inject-steps](https://huggingface.co/datasets/ArsalanKaleem/swe-inject-steps) |
 | Sindh Water Access Index (SWAI) | Software and data · Zenodo | [10.5281/zenodo.21422759](https://doi.org/10.5281/zenodo.21422759) |
+| sindhinorm | Python package · PyPI | [pypi.org/project/sindhinorm](https://pypi.org/project/sindhinorm/) |
 | SindhiNorm / MorphoTok-SD-UR | Software · Zenodo | [10.5281/zenodo.24093293](https://doi.org/10.5281/zenodo.24093293) |
 
 ## Engineering
