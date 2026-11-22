@@ -1,151 +1,63 @@
-<div align="center">
-  <img src="assets/banner-dark.svg" width="100%" alt="Arsalan Kaleem banner" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <img src="assets/banner-light.svg" width="100%" alt="Arsalan Kaleem" />
+</picture>
 
-<div align="center">
-  <h1>Arsalan Kaleem</h1>
-  <h3>Full-Stack Engineer • Flutter • Python • AI Safety • Geospatial Research</h3>
-  <p>
-    <a href="https://arsalankaleem.github.io/portfolio/">Portfolio</a>
-    ·
-    <a href="https://linkedin.com/in/arsalankaleem">LinkedIn</a>
-    ·
-    <a href="mailto:arsalanabbasi.here@gmail.com">Email</a>
-    ·
-    <a href="https://github.com/ArsalanKaleem">GitHub</a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Location-Karachi%2C%20Pakistan-0A66C2?style=for-the-badge" alt="Location" />
-    <br/>
-    <img src="https://komarev.com/ghpvc/?username=ArsalanKaleem&style=flat-square&color=brightgreen&label=PROFILE+VIEWS" alt="Profile views" />
-  </p>
-</div>
+# Arsalan Kaleem
 
-<br>
+I'm a software engineer and independent researcher, studying for my BS in Computer Science at **Shaikh Ayaz University, Shikarpur**, Sindh, Pakistan.
 
-## About
+I like problems where the standard answer turns out to be wrong. Most of my work checks a common method against real data, and I publish the code, the data and the cases where it fails. Each project below starts with the one thing it adds that wasn't there before.
 
-I build **production-grade systems and research tools** at the intersection of **software engineering, AI, security, and geospatial science**. My work ranges from cross-platform Flutter applications and real-time infrastructure to empirical audits of AI behavior and reproducible accessibility research.
+[Portfolio](https://arsalankaleem.github.io/portfolio/) · [ORCID](https://orcid.org/0009-0002-9054-6965) · [Hugging Face](https://huggingface.co/ArsalanKaleem) · [LinkedIn](https://linkedin.com/in/arsalankaleem) · [Email](mailto:arsalanabbasi.here@gmail.com)
 
-I care about engineering that balances:
+---
 
-- **Architectural rigor** — clean, maintainable, testable code
-- **Real-world impact** — tools that solve genuine problems
-- **Evidence-driven results** — transparent methods, controls, and reproducible analysis
-- **Honest evaluation** — reporting where systems work, where they fail, and what the data cannot establish
+## Research
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>Frontend & Mobile</strong><br>
-      Flutter · Dart · HTML/CSS · JavaScript · Riverpod · GSAP
-    </td>
-    <td align="center" width="50%">
-      <strong>Backend & AI</strong><br>
-      Python · FastAPI · LLM Agents · RAG · Gemini · PyTorch
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <strong>AI Safety & Security</strong><br>
-      Unlearning audits · Prompt-injection detection · Causal evaluation · Conformal calibration
-    </td>
-    <td align="center" width="50%">
-      <strong>Geospatial & Data</strong><br>
-      Earth Engine · GeoPandas · OSMnx · QGIS · Spatial Analysis · Network Routing
-    </td>
-  </tr>
-</table>
-</div>
+**AI reliability and safety**
 
-<br>
+- [**TraceWarden**](https://github.com/ArsalanKaleem/tracewarden): a firewall that scores each tool call an LLM agent proposes *before it runs*, points to the tool output the prompt injection came from, and keeps false alarms within a set budget using conformal calibration.
+- [**swe-inject**](https://github.com/ArsalanKaleem/swe-inject): a benchmark that labels prompt injection against coding agents at the level of individual steps. I used it to show that guards trained on synthetic data fail on real agents.
+- [**unlearning-audit**](https://github.com/ArsalanKaleem/unlearning-audit): a preregistered audit of LLM unlearning that compares against a set of facts the model was never taught, so "forgotten" can be measured against "never known".
+- [**debiasability-curve**](https://github.com/ArsalanKaleem/debiasability-curve): varies how strong a spurious correlation is to test whether trimming sparse-autoencoder features actually removes a concept.
 
-## What I Do
+**Low-resource NLP (Sindhi and Urdu)**
 
-- **Ship multi-platform systems** — Flutter apps for Web, iOS, Android, Windows, and macOS with real-time backends and complex state management
-- **Build AI-enabled infrastructure** — multi-agent systems, LLM evaluation frameworks, RAG pipelines, and intelligent automation
-- **Study AI reliability and security** — testing whether apparent model capabilities survive proper controls and detecting indirect prompt injection before tool execution
-- **Conduct geospatial research** — accessibility analysis, remote sensing, infrastructure mapping, and decision-support systems
-- **Engineer for reproducibility** — preregistration, audit trails, deterministic pipelines, explicit limitations, and research outputs that others can verify
+- [**LAFZ**](https://github.com/ArsalanKaleem/LAFZ): extends an open LLM's vocabulary after training. Urdu and Sindhi text needs 47–49% fewer tokens and generation runs about 1.9× faster.
+- [**MorphoTok-SD-UR**](https://github.com/ArsalanKaleem/MorphoTok-SD-UR): a preregistered study of morphology-aware tokenization with gold data from native Sindhi speakers. It is also the home of **SindhiNorm**, a spelling normalizer for Sindhi.
+- [**sindhi-JEV**](https://github.com/ArsalanKaleem/sindhi-JEV): a 7M-parameter checker that flags wrong Sindhi OCR output and marks where the error is.
 
-<br>
+**Geospatial accessibility in Sindh**
 
-## Featured Projects
+- [**SWAI**](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-): drinking-water access for 5,159 villages. It shows that using annual rainfall in the standard method flips the ranking, so the driest districts come out looking best served.
+- [**RHAI**](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-): travel time to the nearest health facility over the real road network, plus a measure of how much incomplete open data distorts the result.
+- [**flood-recovery-sindh**](https://github.com/ArsalanKaleem/flood-recovery-sindh): matched-counterfactual satellite analysis of 555k cropland cells after the 2022 floods.
+- [**FHARI**](https://github.com/ArsalanKaleem/FHARI) · [**CODA**](https://github.com/ArsalanKaleem/CODA): health access when roads flood, and whether flood losses and chronic shortages of water, health care and market access hit the same villages.
 
-### 🛡️ AI Safety, Reliability & Security
+## Publications
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**TraceWarden**](https://github.com/ArsalanKaleem/tracewarden) | Pre-dispatch detection and localization of indirect prompt injection in LLM agent tool calls. Combines provenance/taint-style features, goal anchoring, causal signals, and conformal calibration. | Python, PyTorch, AgentDojo, Gradio, ONNX |
-| [**Unlearning Audit**](https://github.com/ArsalanKaleem/unlearning-audit) | An empirical audit of whether LLM unlearning removes knowledge or merely suppresses its expression, using never-taught controls that standard diagnostics omit. | Python, PyTorch, scikit-learn, Statistical Testing |
-| [**Documentum**](https://github.com/ArsalanKaleem/Documentum) | Multi-LLM documentation generator with parallel AI agents and Flutter Desktop/Web interfaces. | Dart, Python, LLM Agents, FastAPI |
-| [**Website Security Assessment**](https://github.com/ArsalanKaleem/website-security-assessment) | Non-destructive security audits covering TLS/SSL, HTTP headers, DNS, port scanning, and CVE correlation. | Python, Security Tooling |
+- **Kaleem, A.**, Soomro, S., Jan, U., Haseja, S. (2026). *Estimating village-level drinking-water accessibility in Sindh, Pakistan, from open geospatial data: why annual rainfall inverts the ranking.* International Journal of Advanced Research. [doi:10.5281/zenodo.24134151](https://doi.org/10.5281/zenodo.24134151)
+- **Kaleem, A.** (2026). *What open geospatial data can and cannot tell us about geographic access to rural public primary care.* International Journal of Advanced Research, 3(5), 1606–1624. [doi:10.5281/zenodo.22828857](https://doi.org/10.5281/zenodo.22828857)
+- **Kaleem, A.** (2026). *Synthetic-trained guards fail on real LLM agents: step-level evidence from tool-use and coding-agent prompt injection.* Preprint. [doi:10.20944/preprints202611.0859.v1](https://doi.org/10.20944/preprints202611.0859.v1)
+- **Kaleem, A.** (2026). *Post-hoc vocabulary extension for low-resource languages: gains beyond fine-tuning, a pre-tokenizer limit, and effects on degenerate generation.* Preprint. [doi:10.20944/preprints202610.2314.v1](https://doi.org/10.20944/preprints202610.2314.v1)
+- **Kaleem, A.** (2026). *Seasonally decoupled recovery of flooded cropland after the 2022 Sindh floods: a matched-counterfactual satellite assessment.* Preprint. [doi:10.20944/preprints202610.1600.v1](https://doi.org/10.20944/preprints202610.1600.v1)
 
-### 🚀 Full-Stack & Systems
+## Open data and software
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**Nuntius**](https://github.com/ArsalanKaleem/Nuntius) | WhatsApp chat analytics with interactive Wrapped stories, monthly archives, and PDF reports. Handles 250k+ messages on-device. | Flutter, Dart |
-| [**SIMUL**](https://github.com/ArsalanKaleem/simul-watch-together-app) | Synchronized YouTube viewing, video chat, screen sharing with audio, and Connect 4 gaming in a real-time experience. | Flutter, Firebase, LiveKit |
-| [**F1-Vision**](https://github.com/ArsalanKaleem/F1-Vision) | Cinematic F1 dashboard with live telemetry gauges, race-control leaderboard, and season-wide analytics. | Flutter, Dart, OpenF1 API |
-| [**Portfolio**](https://github.com/ArsalanKaleem/portfolio) | Immersive, scroll-driven developer portfolio with GSAP animations and micro-interactions. | HTML, CSS, JavaScript, GSAP |
-| [**Aestimo**](https://github.com/ArsalanKaleem/Aestimo) | AI career copilot for resume insights, ATS optimization, cover letters, interview preparation, and grounded chat. | Flutter, Dart, Gemini |
-| [**ForgeOS**](https://github.com/ArsalanKaleem/forge-os) | AI-powered discovery of trending repositories and beginner-friendly GitHub issues with Gemini guidance. | Flutter, Dart, Gemini API |
+| Resource | Type | Link |
+| --- | --- | --- |
+| swe-inject-steps | Dataset · Hugging Face | [huggingface.co/datasets/ArsalanKaleem/swe-inject-steps](https://huggingface.co/datasets/ArsalanKaleem/swe-inject-steps) |
+| Sindh Water Access Index (SWAI) | Software and data · Zenodo | [10.5281/zenodo.21422759](https://doi.org/10.5281/zenodo.21422759) |
+| SindhiNorm / MorphoTok-SD-UR | Software · Zenodo | [10.5281/zenodo.24093293](https://doi.org/10.5281/zenodo.24093293) |
 
-### 🌍 Geospatial Research & Public Impact
+## Engineering
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**RHAI** — Rural Healthcare Accessibility Index](https://github.com/ArsalanKaleem/Rural-Healthcare-Accessibility-Index--RHAI-) | Village-level travel time to rural public primary care across Sindh, Pakistan, computed over real road networks. The study shows that open facility data can overstate population-weighted travel time by about 2× and the population more than 30 minutes from care by about 10×. | Python, OSMnx, NetworkX, GeoPandas |
-| [**SWAI** — Sindh Water Access Index](https://github.com/ArsalanKaleem/Sindh-Water-Access-index-SWAI-) | Village-level drinking-water accessibility analysis across 5,159 settlements using open geospatial data. | Python, Earth Engine, Geospatial Analysis |
-| [**Flood Recovery Sindh**](https://github.com/ArsalanKaleem/flood-recovery-sindh) | Disaster impact assessment and recovery-planning infrastructure. | Python, Geospatial Data |
-| [**Civic Ping Pakistan**](https://github.com/ArsalanKaleem/Civic-ping-pakistan) | Community infrastructure monitoring and civic engagement tool. | Dart, Flutter |
+I also build and ship apps, mostly with Flutter, Firebase and Python:
 
-### 🛠️ Earlier Projects & Learning
+- [**Documentum**](https://github.com/ArsalanKaleem/Documentum): writes a project's documentation using parallel AI agents and several LLM providers.
+- [**Gloria**](https://github.com/ArsalanKaleem/Gloria): an open-source RAG assistant for universities (hybrid BGE + BM25 search), built for Shaikh Ayaz University.
+- [**SIMUL**](https://github.com/ArsalanKaleem/simul-watch-together-app): watch YouTube in sync with others, with video chat and screen sharing.
+- [**Aestimo**](https://github.com/ArsalanKaleem/Aestimo) · [**F1-Vision**](https://github.com/ArsalanKaleem/F1-Vision) · [**Nuntius**](https://github.com/ArsalanKaleem/Nuntius) · [**ForgeOS**](https://github.com/ArsalanKaleem/forge-os)
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**ARKA**](https://github.com/ArsalanKaleem/ARKA) | Systems and research toolkit. | Python |
-| [**Movix**](https://github.com/ArsalanKaleem/movix) | Movie discovery and management platform. | Web Technology |
-| [**Accordion**](https://github.com/ArsalanKaleem/Accordion) | Interactive accordion UI component. | HTML, CSS, JavaScript |
-| [**AgWeb**](https://github.com/ArsalanKaleem/AgWeb) | Web project. | CSS, HTML |
-
-<br>
-
-## Research Interests
-
-I am particularly focused on:
-
-- **AI reliability & evaluation** — realistic assessment of LLM capabilities, limitations, and misleading diagnostics
-- **AI security** — indirect prompt injection, tool-use security, provenance tracking, and practical defenses
-- **Machine unlearning** — distinguishing internal representation changes from output suppression with strong controls
-- **Geospatial accessibility** — infrastructure-driven decision making and public health equity
-- **Remote sensing & spatial analysis** — evidence-based planning and resource allocation
-- **Constraint solving & optimization** — planning problems with real-world constraints
-- **Reproducible research systems** — making computational research transparent, auditable, and usable
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Reliability-Research-34D058?style=flat-square" alt="AI Reliability" />
-  <img src="https://img.shields.io/badge/AI%20Security-Research-EF4444?style=flat-square" alt="AI Security" />
-  <img src="https://img.shields.io/badge/Machine%20Unlearning-Research-8B5CF6?style=flat-square" alt="Machine Unlearning" />
-  <img src="https://img.shields.io/badge/Geospatial%20Accessibility-Research-0EA5E9?style=flat-square" alt="Geospatial Accessibility" />
-  <img src="https://img.shields.io/badge/Remote%20Sensing-Research-F59E0B?style=flat-square" alt="Remote Sensing" />
-  <img src="https://img.shields.io/badge/Reproducible%20Systems-Research-EC4899?style=flat-square" alt="Reproducible Systems" />
-</p>
-
-<br>
-
-## Language & Tools Breakdown
-
-- **Dart** — primary language for cross-platform Flutter apps across Web, Mobile, and Desktop
-- **Python** — research, backend systems, data pipelines, AI infrastructure, and security tooling
-- **HTML/CSS/JavaScript** — web frontends, animations, and interactive experiences
-- **PyTorch & scientific Python** — model evaluation, statistical analysis, and reproducible experiments
-- **C++** — systems programming and algorithms in educational projects
-
-<br>
-
-<div align="center">
-  <i>Building tools that turn research into reliable systems—and systems that solve real problems.</i>
-</div>
+<sub>Python · PyTorch · Hugging Face · Earth Engine · GeoPandas · OSMnx · FastAPI · Flutter · Dart · Firebase · Docker</sub>
